@@ -245,7 +245,7 @@ if __name__ == '__main__':
     # Define the required and optional parameters - the Python application will fail if required inputs are not provided
     ap.add_argument("server",
                     type=str,
-                    help="gallery server name e.g. l4dwidap7125")
+                    help="gallery server name e.g. yourserveraddr")
     ap.add_argument("key",
                     type=str,
                     help="gallery subscription key")
