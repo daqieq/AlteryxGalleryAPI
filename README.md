@@ -10,7 +10,11 @@ The official Alteryx API documentation can be found at: https://gallery.alteryx.
  ## Setup and Install
 In order to access the Gallery you must obtain an API key, secret and you must have the URL to your Alteryx Gallery.
 
-Note: This library is not avaliable through via PyPI and must be installed locally and placed in your working directory.
+Pick a directory on your server/client where you want to run the application. It is recommended generally to create a virtual environment for testing, and even most production uses. In my case, I didn't want the main python installation that would be used for other uses to be impacted by, or impact, my AlteryxGalleryAPI application. So I created a venv for it to use exclusively:
+
+```
+python -m venv AlteryxAPI_venv
+```
 
  ## Usage
 The CLI is run from the command line and here is the help information as currently configured:
